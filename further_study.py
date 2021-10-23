@@ -16,7 +16,10 @@ def custom_len(input_list):
 
     """
 
-    return 0
+    custom_length = 0
+    for item in input_list:
+        custom_length += 1
+    return custom_length
 
 
 # For the next four exercises, you'll need to be clever and think about ways
